@@ -1,0 +1,34 @@
+# Base Python version
+#python==3.11
+
+# PyTorch and related
+numpy
+torch
+torchaudio
+torchvision
+
+# Note: for CUDA support, install via pip with index URL if needed
+# Example: pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Jupyter support
+ipykernel
+
+# Hugging Face ecosystem
+datasets
+transformers
+evaluate
+huggingface_hub
+accelerate
+
+# Misc dependencies
+pandas
+numpy
+ujson
+lightning
+spacy
+seqeval
+wandb
+tqdm
+
+# SciSpacy model (small English scientific model)
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_sm-0.5.1.tar.gz
