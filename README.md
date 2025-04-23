@@ -25,7 +25,7 @@ or
 ```bash
 conda env create trialsieve
 conda activate trialsieve
-pip install -f requirements.txt
+pip install -r requirements.txt
 pip install --upgrade --force-reinstall thinc spacy
 ```
 
