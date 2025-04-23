@@ -16,14 +16,9 @@ All data for `TrialSieve` can be found in the `data` subdirectory.  The data fil
 
 # Reproducing Experiments
 ## Environment setup
-Create and activate the conda environment by running either:
+Create and activate the conda environment by running:
 ```bash
-conda env create -f environment.yaml 
-conda activate trialsieve
-```
-or
-```bash
-conda env create trialsieve
+conda create -n trialsieve python=3.11
 conda activate trialsieve
 pip install -r requirements.txt
 pip install --upgrade --force-reinstall thinc spacy
