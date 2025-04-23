@@ -12,7 +12,8 @@ All data for `TrialSieve` can be found in the `data` subdirectory.  The data fil
 * `old_schema_data.csv`: Annotations made using previous versions of the schema
 * `all_data.csv`: All annotations merged together, regardless of schema
 * `preprocessed_for_modeling.json` Preprocessed data from final schema to be used with NER models
-
+* `cleaned_error_analysis.csv` Analysis of errors on a subset of data annotated by humans and BERT-based models.
+* `cleaned_error_analysis_v2.xlsx` Analysis of errors with their correction on a subset of data annotated by humans and BERT-based models.
 
 # Reproducing Experiments
 ## Environment setup
