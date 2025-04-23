@@ -32,7 +32,9 @@ python models/train.py
 
 ## LLMs
 The results using GPT-4o are located in the `llm` folder.
-Use `gpt_run.ipynb` to run your own experiments (requires your own OpenAI API key)
+
+Use `gpt_run.ipynb` to run your own experiments (requires your own OpenAI API key).
+
 Use `eval_gpt_res.ipynb` to evaluate the existing results.
 
 ## Entity Definitions
